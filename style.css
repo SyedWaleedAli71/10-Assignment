@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    margin-left: 200px !important;
+}
+
+.navlist {
+    font-family: "Playfair Display", serif;
+    margin-left: 300px;
+}
+
+.searchItem {
+    margin-right: 200px !important;
+}
+
+.manuHover:hover {
+    color: #B87333 !important;
+    text-decoration: underline !important;
+}
+
+.SearchBTN {
+    background-color: #fafafa !important;
+    color: rgb(0, 0, 0) !important;
+   
+    border-width: 2px black !important;
+    
+}
+
+.SearchBTN:hover {
+    background-color: #B87333 !important;
+    color: #fafafa !important;
+}
+
+/********Carousel******/
+.headingText{
+    color: rgb(255, 255, 255) !important;
+    margin-right: 650px !important;
+    margin-bottom: 200px !important;
+    text-align: left !important;
+}
+
+.headingText h5 {
+    font-size: 60px !important;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+}
+
+.CollectionsBTN {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fafafa;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CollectionsBTN:hover {
+    background-color: #B87333;
+    border: none;
+    transition: 0.2em;
+}
+
+.ParfumCollection {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+  
+    font-family: "Playfair Display", serif;
+  
+}
+
+.ParfumCollection h1 {
+    font-size: 60px;
+}
+
+.productCard{
+    padding: 50px 50px 0px 0px;
+    padding-left: 10%;
+}
+
+.productIMG{
+    width: 60%;
+    
+}
+
+.productBTN{
+    background-color: #B87333;
+    border-radius: 20px;
+    border: none;
+    width: 130px;
+    height: 40px;
+}
+.productBTN:hover{
+    background-color: black;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.CustomerDIV{
+    background-color: #F4F4F4;
+    margin-top: 100px;
+    /* height: 700%; */
+    padding-bottom: 100px;
+}
+.CustomerIMG img{
+flex-flow: column wrap;
+}
+
+.aboutDIV{
+    background-color: #B87333;
+    color: #F4F4F4;
+    text-align: center;
+    padding: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.aboutDIV>button{
+    background-color: transparent;
+    color: #F4F4F4;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 60px;
+    width: 300px;
+}
+
+.aboutDIV>button:hover{
+    background-color: #F4F4F4;
+    color: #000000;
+    border: 1px solid #332415;
+}
+
+.bgCover img{
+    width: 100%;
+    height: 120vh;
+}
+
+/* Footer */
+.Footer {
+    background-color: #B87333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FooterText {
+    padding: 40px;
+    margin-left: 50px;
+    width: 20%;
+}
+
+.FooterText>h1 {
+    color: #47280b;
+    font-size: 40px;
+        font-family: "Playfair Display", serif;
+
+}
+
+.FooterText>p {
+    color: #ffffff;
+    margin-left: -7px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.Services {
+    padding: 40px;
+    margin-left: 50px;
+    width: 20%;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+
+}
+
+.ServicesAA>ul>li>a{
+    list-style: none;
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+/*@media******Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 100px !important;
+}
+
+.navlist {
+    font-family: "Playfair Display", serif;
+    margin-left: 50px;
+}
+
+.searchItem {
+    margin-right: 100px !important;
+}
+
+.manuHover:hover {
+    color: #B87333 !important;
+    text-decoration: underline !important;
+}
+
+.SearchBTN {
+    background-color: #fafafa !important;
+    color: rgb(0, 0, 0) !important;
+   
+    border-width: 2px black !important;
+    
+}
+
+.SearchBTN:hover {
+    background-color: #B87333 !important;
+    color: #fafafa !important;
+}
+
+/********Carousel******/
+.headingText{
+    color: rgb(255, 255, 255) !important;
+    margin-right: 50px !important;
+    margin-bottom: 20px !important;
+    text-align: left !important;
+}
+
+.headingText h5 {
+    font-size: 40px !important;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+}
+
+.CollectionsBTN {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fafafa;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CollectionsBTN:hover {
+    background-color: #B87333;
+    border: none;
+    transition: 0.2em;
+}
+
+.ParfumCollection {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: "Playfair Display", serif;
+  
+}
+
+.ParfumCollection h1 {
+    font-size: 60px;
+}
+
+.productCard{
+    padding: 50px 20px 0px 0px;
+    padding-left: 15%;
+}
+
+.productIMG{
+    width: 60%;
+    
+}
+
+.productBTN{
+    background-color: #B87333;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+}
+.productBTN:hover{
+    background-color: black;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.CustomerDIV{
+    background-color: #F4F4F4;
+    margin-top: 100px;
+    /* height: 700%; */
+    padding-bottom: 100px;
+}
+.CustomerIMG img{
+flex-flow: column wrap;
+width: 40%;
+}
+
+.aboutDIV{
+    background-color: #B87333;
+    color: #F4F4F4;
+    text-align: center;
+    padding: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.aboutDIV>button{
+    background-color: transparent;
+    color: #F4F4F4;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 60px;
+    width: 300px;
+}
+
+.aboutDIV>button:hover{
+    background-color: #F4F4F4;
+    color: #000000;
+    border: 1px solid #332415;
+}
+
+.bgCover img{
+    width: 100%;
+    height: 90vh;
+}
+
+/* Footer */
+.Footer {
+    background-color: #B87333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FooterText {
+    padding: 10px;
+    margin-left: 30px;
+    width: 20%;
+}
+
+.FooterText>h1 {
+    color: #47280b;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.FooterText>p {
+    color: #ffffff;
+    margin-left: -7px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.Services {
+    padding: 40px;
+    margin-left: 10px;
+    width: 20%;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+font-size: 15px;
+}
+
+.ServicesAA>ul>li>a{
+    list-style: none;
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+}
+
+
+/* **********Mobile *********/
+@media (min-width: 320px) and (max-width: 768px){
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 30px !important;
+}
+
+/* .navlist {
+    font-family: "Playfair Display", serif;
+    margin-left: 50px;
+} */
+
+/* .searchItem {
+    margin-right: 100px !important;
+} */
+
+.manuHover:hover {
+    color: #B87333 !important;
+    text-decoration: underline !important;
+}
+
+.SearchBTN {
+    background-color: #fafafa !important;
+    color: rgb(0, 0, 0) !important;
+   
+    border-width: 2px black !important;
+    
+}
+
+.SearchBTN:hover {
+    background-color: #B87333 !important;
+    color: #fafafa !important;
+}
+
+/********Carousel******/
+.headingText{
+    color: rgb(255, 255, 255) !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: left !important;
+}
+
+.headingText h5 {
+    font-size: 20px !important;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+}
+
+.CollectionsBTN {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fafafa;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CollectionsBTN:hover {
+    background-color: #B87333;
+    border: none;
+    transition: 0.2em;
+}
+
+.ParfumCollection {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: "Playfair Display", serif;
+  
+}
+
+.ParfumCollection h1 {
+    font-size: 30px;
+}
+.ParfumCollection>p{
+    font-size: 13px;
+}
+.productCard{
+    padding: 10px 10px 0px 0px;
+    padding-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.productIMG{
+    width: 60%;
+    
+}
+
+.productBTN{
+    background-color: #B87333;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+}
+.productBTN:hover{
+    background-color: black;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.CustomerDIV{
+    background-color: #F4F4F4;
+    margin-top: 100px;
+    /* height: 700%; */
+    padding-bottom: 100px;
+}
+.CustomerIMG img{
+flex-flow: column wrap;
+width: 40%;
+}
+
+.aboutDIV{
+    background-color: #B87333;
+    color: #F4F4F4;
+    text-align: center;
+    padding: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.aboutDIV>button{
+    background-color: transparent;
+    color: #F4F4F4;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 60px;
+    width: 300px;
+}
+
+.aboutDIV>button:hover{
+    background-color: #F4F4F4;
+    color: #000000;
+    border: 1px solid #332415;
+}
+
+.bgCover img{
+    width: 100%;
+    height: 40vh;
+}
+
+/* Footer */
+.Footer {
+    background-color: #B87333;
+    display: flex;
+    flex-wrap: wrap;
+      /* align-items: center; */
+    /* justify-content: center;  */
+}
+
+.FooterText {
+    width: 40%;
+    font-size: 20px;
+}
+
+.FooterText>h1 {
+    color: #47280b;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.FooterText>p {
+    color: #ffffff;
+    /* margin-left: -7px; */
+    font-family: "Playfair Display", serif;
+font-size: 10px;
+}
+
+.Services {
+    padding: 10px;
+    /* margin-left: 10px; */
+    /* width: 10%; */
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+font-size: 10px;
+}
+
+.ServicesAA>ul>li>a{
+    list-style: none;
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+.footerpara{
+    font-size: 10px;
+    /* background-color: antiquewhite; */
+}
+
+}
